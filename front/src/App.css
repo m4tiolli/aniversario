@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Madina;
+  src: url('./assets/fonts/Madina.ttf');
+}
+
+@font-face {
+  font-family: The Seasons;
+  src: url('./assets/fonts/The\ Seasons\ Regular.ttf');
+}
+
+.titulo {
+  font-family: Madina, sans-serif;
+}
+
+.idade, .seasons {
+  font-family: The Seasons;
+}
+div[role="alert"] {
+  font-family: "Inter";
+}

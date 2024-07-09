@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Seasons';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(./src/assets/fonts/The\ Seasons\ Light.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Seasons';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./src/assets/fonts/The\ Seasons\ Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Seasons';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./src/assets/fonts/The\ Seasons\ Bold.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Madina';
+    src: url(./src/assets/fonts/Madina.ttf) format('ttf');
+  }
+}
