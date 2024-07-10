@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/e721fdff-513e-4bd1-a65d-337f23177fc8/resourceGroups/Aniversário/providers/Microsoft.Web/sites/nivermariana",
+  "appService.deploySubpath": "api"
+}

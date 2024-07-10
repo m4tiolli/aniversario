@@ -20,7 +20,19 @@ module.exports = function (app) {
       }
     });
   });
-  
+
+  app.get("/pesquisa/:nome", (req, res) => {
+    const nome = req.params.nome;
+    db.query(`SELECT * FROM convidados WHERE nome LIKE '%${nome}%'`, (err, result) => {
+      if (err) {
+        console.error("Erro ao buscar convidados", err);
+        res.status(500).json({ error: "Erro ao buscar convidados" });
+      } else {
+        res.json(result);
+      }
+    });
+  });
+
   app.post("/", (req, res) => {
     const { nome } = req.body;
 
