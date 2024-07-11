@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "aniversariomariana": {
+      "appLocation": "./",
+      "outputLocation": "./dist",
+      "resourceGroup": "aniversariomariana-rg",
+      "subscription": "e721fdff-513e-4bd1-a65d-337f23177fc8",
+      "appName": "aniversariomariana"
+    }
+  }
+}
