@@ -9,12 +9,13 @@
 }
 
 .titulo {
-  font-family: Madina, sans-serif;
+  font-family: Madina, serif;
 }
 
 .idade, .seasons {
-  font-family: The Seasons;
+  font-family: The Seasons, serif;
 }
-div[role="alert"] {
-  font-family: "Inter";
+
+div[role="alert"], .inter {
+  font-family: "Inter", sans-serif;
 }
